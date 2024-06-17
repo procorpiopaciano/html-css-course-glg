@@ -1,0 +1,15 @@
+p {
+  margin: 0;
+  margin-bottom: 15px;
+  font-family: Montserrat, Arial;
+  text-align: center;
+}
+
+.model-name {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.order-online {
+  font-size: 30px;
+}
