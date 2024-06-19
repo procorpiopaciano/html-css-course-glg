@@ -2,29 +2,46 @@
 <html>
   <head>
     <style>
-      p {
-        margin: 0;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 15px;
-        color: rgb(75, 72, 72);
+      img {
+
+        width: 70px;
+        height: 70px;
+        border-radius: 50px;
+        object-fit: cover;
+        object-position: center;
+
+        vertical-align: middle;
+
       }
 
       input {
+
+        border: none;
+        font-size: 20px;
+        padding: 10px 10px;
+        margin: 0px 10px;
         width: 350px;
-        padding: 8px;
-        font-size: 18px;
-        margin-bottom: 15px;
+        border-radius: 10px;
+
+        vertical-align: middle;
+
       }
 
       button {
-        background-color: rgb(39, 108, 235);
-        padding: 15px 120px;
-        font-size: 24px;
+        background-color: rgb(66, 131, 252);
         color: white;
-        cursor: pointer;
+        font-size: 20px;
+        font-weight: bold;
         border: none;
-        border-radius: 100px;
+        padding: 10px 15px;
+        border-radius: 30px;
+        cursor: pointer;
+
         transition: opacity 0.15s;
+
+
+        vertical-align: middle;
+
       }
 
       button:hover {
@@ -34,32 +51,11 @@
       button:active {
         opacity: 0.6;
       }
-
-      .email-label {
-        margin-bottom: 5px;
-      }
-
-      .agree-label {
-        margin-bottom: 20px;
-      }
     </style>
   </head>
   <body>
-    <p class="email-label">
-      Email
-    </p>
-    <p>
-      <input type="text">
-    </p>
-
-    <p class="agree-label">
-      By clicking Agree & Join, you agree to the Privacy Policy
-    </p>
-
-    <p>
-      <button>
-        Agree & Join
-      </button>
-    </p>
+    <img src="images/cat.jpg">
+    <input type="text" placeholder="What's happening?">
+    <button>Tweet</button>
   </body>
 </html>
