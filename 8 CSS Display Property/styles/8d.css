@@ -1,0 +1,46 @@
+p {
+  margin: 0;
+  margin-bottom: 13px;
+}
+
+input {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid 1px grey;
+}
+
+.first-name {
+  width: 220px;
+}
+
+.last-name {
+  width: 220px;
+}
+
+.email {
+  display: block;
+  margin-bottom: 13px;
+  width: 465px;
+}
+
+.sign-up-btn {
+  display: block;
+  padding: 15px 200px;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(51, 99, 255);
+  color: white;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.sign-up-btn:hover {
+  opacity: 0.8;
+}
+
+.sign-up-btn:active {
+  opacity: 0.6;
+}
