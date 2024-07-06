@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        height: 3000px;
+      }
+
+      .sticky-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 10px 40px;
+
+        border-bottom: 1px solid rgb(219, 219, 219);
+
+      }
+
+      .profile-info-container, 
+      .user-actions-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        column-gap: 10px;
+      }
+
+      .profile-picture {
+        object-fit: cover;
+        object-position: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+      }
+
+      .profile-name {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      button {
+        padding: 8px 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: opacity 0.15s;
+      }
+
+      button:hover {
+        opacity: 0.8;
+      }
+
+      button:active {
+        opacity: 0.6;
+      }
+
+      .add-friend-btn {
+        color: white;
+        background-color: rgb(100, 160, 250);
+        
+      }
+
+      .add-friend-btn {
+        color: black;
+        border: none;
+      }
+
+    </style>
+
+  </head>
+  <body>
+    <div class="sticky-container">
+      <div class="profile-info-container">
+        <img class="profile-picture" src="images/cat.jpg">
+        <div class="profile-name">
+          Oliver Cat
+        </div>
+      </div>
+      
+      <div class="user-actions-container">
+        <button class="add-friend-btn">
+          Add Friend
+        </button>
+        <button class="message-btn">
+          Message
+        </button>
+      </div>
+
+    </div>
+  </body>
+</html>
