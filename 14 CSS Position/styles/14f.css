@@ -1,0 +1,74 @@
+body {
+  height: 3000px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar-container {
+  display: flex;
+  flex-direction: row;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.active-convo-container {
+  display: flex;
+  flex-direction: column;
+
+  row-gap: 10px;
+
+  padding: 15px;
+
+  background-color: rgb(39, 39, 39);
+}
+
+.profile-picture {
+  object-fit: cover;
+  object-position: center;
+
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+
+  cursor: pointer;
+}
+
+.channel-container {
+  display: flex;
+  flex-direction: column;
+
+  row-gap: 10px;
+
+  padding: 15px;
+
+  width: 180px;
+
+  background-color: rgb(63, 63, 63);
+
+}
+
+.info-header {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.info-label {
+  color: white;
+  font-size: 14px;
+}
+
+.info-expand {
+  color: rgb(167, 167, 167);
+  font-size: 22px;
+}
+
+.channel {
+  color: rgb(148, 148, 148);
+
+}
